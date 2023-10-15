@@ -24,6 +24,7 @@ public class Account {
         this.isAdmin = isAdmin;
     }
 
+
     @Override
     public boolean equals(Object obj) {
         return super.equals(obj); 
@@ -47,6 +48,7 @@ public class Account {
         this.isAdmin = isAdmin;
     }
     
+
     @Override
     public String toString() {
         return "Account{" + "id=" + id + ", user=" + user + ", password=" + password + ", isSeller=" + isSeller + ", isAdmin=" + isAdmin + '}';
