@@ -22,6 +22,10 @@ public class Account {
         this.isSeller = isSeller;
         this.isAdmin = isAdmin;
     }
+    
+    public void doPost() {
+        
+    }
 
     public int getIsSeller() {
         return isSeller;
