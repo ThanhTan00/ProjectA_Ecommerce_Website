@@ -14,6 +14,7 @@ public class Account {
     private String password;
     private int isSeller;
     private int isAdmin;
+    
 
     public Account(int id, String user, String password, int isSeller, int isAdmin) {
         this.id = id;
@@ -22,6 +23,13 @@ public class Account {
         this.isSeller = isSeller;
         this.isAdmin = isAdmin;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj); 
+    }
+    
+    
 
     public int getIsSeller() {
         return isSeller;
